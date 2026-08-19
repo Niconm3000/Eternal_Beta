@@ -1,3 +1,10 @@
 
 # Build artifacts (too large for GitHub)
 Build/
+!Build/
+!Build/Eternal/
+!Build/Eternal/Windows/
+!Build/Eternal/Windows/**
+
+# Exceeds GitHub's 2GB LFS file size limit
+Build/Eternal/Windows/Eternal/Content/Paks/Eternal-Windows.ucas
